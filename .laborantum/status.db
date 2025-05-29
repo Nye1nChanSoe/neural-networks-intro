@@ -3,7 +3,7 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 22,
+                "total": 60,
                 "correct": 10
             }
         },
@@ -31,7 +31,7 @@
         {
             "path": "/texts/course/4-Simple-Network/config.yml",
             "status": {
-                "total": 1,
+                "total": 10,
                 "correct": 0
             }
         },
@@ -45,7 +45,7 @@
         {
             "path": "/texts/course/3-Backpropagation/config.yml",
             "status": {
-                "total": 11,
+                "total": 40,
                 "correct": 0
             }
         },
