@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 90,
-                "correct": 82.11161387631975
+                "correct": 85.64102564102564
             }
         },
         {
@@ -95,7 +95,14 @@
             "path": "/texts/course/5-FFNN/config.yml",
             "status": {
                 "total": 30,
-                "correct": 26.470588235294116
+                "correct": 30
+            }
+        },
+        {
+            "path": "/texts/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0
             }
         }
     ],
@@ -55873,7 +55880,7 @@
         {
             "path": "/texts/course/5-FFNN/5-Feedforward-NN/config.yml",
             "status": {
-                "correct": 26.470588235294116,
+                "correct": 30,
                 "total": 30,
                 "testStatus": [
                     {
@@ -56103,33 +56110,33 @@
                     },
                     {
                         "name": "root -> model_deep",
-                        "ok": false,
-                        "status": "FAILED: Edit distance between strings is 1767"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> test_output_deep",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (10, 10)\nRecieved shape: (10, 784)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> model_deep_residual",
-                        "ok": false,
-                        "status": "FAILED: Edit distance between strings is 1759"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> test_output_deep_residual",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (10, 10)\nRecieved shape: (10, 784)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> model_deep_residual_linnormact",
-                        "ok": false,
-                        "status": "FAILED: Edit distance between strings is 2575"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> test_output_deep_residual_linnormact",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (10, 10)\nRecieved shape: (10, 784)"
+                        "ok": true,
+                        "status": "OK"
                     }
                 ]
             }
